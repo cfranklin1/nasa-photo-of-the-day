@@ -36,8 +36,8 @@ function App() {
       </p>
 
       <Title newData={newData}/>
-      <Picture />
-      <Description />
+      <Picture newData={newData}/>
+      <Description newData={newData}/>
 
     </div>
   );

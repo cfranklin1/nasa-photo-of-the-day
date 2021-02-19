@@ -7,7 +7,7 @@ export default function Picture(props) {
 
     return (
         <div className='this-is-picture'>
-
+            <img alt='to-day' className='day-picture' src={newData.url} />
         </div>
     )
 }
