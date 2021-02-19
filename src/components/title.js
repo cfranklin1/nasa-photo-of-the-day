@@ -10,9 +10,10 @@ export default function Title(props) {
     
     return (
         <div className='this-is-title'>
-            <Info 
-            title={newData.title}
+            <Info
             date={newData.date}
+            title={newData.title}
+            
             />
         </div>
     )

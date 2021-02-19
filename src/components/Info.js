@@ -7,10 +7,10 @@ export default function Info(props) {
     return (
         <div className='title-info'>
             <div className='title-text'>
-                <h2>{title}</h2>
+                <h2>{date}</h2>
             </div>
             <div className=''>
-                <h3>{date}</h3>
+                <h1>{title}</h1>
             </div>
 
         </div>
