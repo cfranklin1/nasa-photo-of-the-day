@@ -35,7 +35,9 @@ function App() {
         app! Have fun <span role="img" aria-label='go!'>🚀</span>!
       </p>
 
-      <Title />
+      <Title newData={newData}/>
+      <Picture />
+      <Description />
 
     </div>
   );
